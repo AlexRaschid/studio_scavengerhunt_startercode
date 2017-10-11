@@ -1,0 +1,23 @@
+h1,h2 {
+    text-align: center;
+    font-family: sans-serif;
+    animation-name: flash;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1x;
+    animation-direction: alternate;
+    animation-play-state: running;
+    color:blue;
+}
+@keyframes flash {
+    from {color:black;}
+    to {color: blue;}
+}
+
+p {
+    font-family: serif;
+}
+
+body {
+    background-color: #b38b6d;
+}
